@@ -73,7 +73,7 @@ if should_collectstatic; then
       exit
     fi
 
-    python $manage_file collectstatic --noinput
+    sudo python $manage_file collectstatic --noinput
   )
 fi
 
